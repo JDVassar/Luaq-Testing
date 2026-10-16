@@ -1,0 +1,3 @@
+LUAQ_ROUNDTRIP_V1
+counter.first=12|counter.second=9|counter.peek=9|varargs.count=5|varargs.hole=true|varargs.false=true|varargs.last=17|loop.numeric=95|loop.break=6|loop.sum=15|loop.repeat=0|table.weighted=46|metatable.method=42|metatable.add=14|metatable.string=box(6)|recursive=720|logic.false=false|logic.true=true|logic.choice=touched|logic.calls=1|pcall.ok=false|pcall.error=true|string=obfuscation|math=5
+CHECKSUM=139587

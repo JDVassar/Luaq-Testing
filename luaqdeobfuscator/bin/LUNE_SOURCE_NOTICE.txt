@@ -1,0 +1,6 @@
+The bundled macOS ARM64 Lune 0.11.0 executable is an unmodified upstream release.
+Lune is distributed under Mozilla Public License 2.0; see LUNE_LICENSE.txt.
+Corresponding upstream source for this release is available at:
+https://github.com/lune-org/lune/tree/v0.11.0
+Release origin and SHA-256 are recorded in LUNE_RELEASE.json.
+This tool does not modify Lune's source or binary.

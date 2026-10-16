@@ -1,0 +1,86 @@
+{
+  "tool_version": "0.3.0",
+  "automated_tests_passed": 23,
+  "sample1_main_instruction_trace_steps": 76443,
+  "sample1_trace_sha256": "434d2bdb7eed25f70fb500a9b16a0cee6439ef105a9c8011a8a39197464f1d13",
+  "sample2_behavior_fixtures_passed": 9,
+  "generated_sources_compile": true,
+  "roundtrip_checksum": 139587,
+  "native_roblox_verified": false,
+  "support": "Two pinned randomized builds; new obfuscations need profile analysis. Output retains register operations and dispatch.",
+  "third_build_bootstrap": {
+    "prototypes": 43,
+    "constants": 578,
+    "packet_records": 3686,
+    "verified_operand_decodes": 3516,
+    "read_failures": 0,
+    "application_comparison_pending": false
+  },
+  "third_build_application": {
+    "prototypes": 13,
+    "constants": 95,
+    "specialized_handlers": 132,
+    "full_stdout_matches": true,
+    "return_values_match": true,
+    "checksum": 139587,
+    "uncaptured_packet_records": 3,
+    "unresolved_regions": 1
+  },
+  "automatic_discovery": {
+    "sample2": {
+      "banks": 4,
+      "verified_bootstrap_operands": 3332,
+      "application_behavior_fixtures_passed": 9
+    },
+    "sample3": {
+      "banks": 6,
+      "verified_bootstrap_operands": 3516,
+      "full_application_stdout_matches": true
+    },
+    "sample4": {
+      "banks": 7,
+      "verified_bootstrap_operands": 3329,
+      "application_capture_pending": true
+    }
+  },
+  "automatic_clean_source_available": false,
+  "executor_free_live_runs": {
+    "sample2": {
+      "prototypes": 1,
+      "constants": 24,
+      "packets": 58,
+      "all_constants": true,
+      "all_packet_records": true,
+      "unresolved_regions": 0,
+      "executor_used": false,
+      "roblox_client_used": false,
+      "application_executed": false,
+      "network_required": true
+    },
+    "sample3": {
+      "prototypes": 13,
+      "constants": 95,
+      "packets": 362,
+      "all_constants": true,
+      "all_packet_records": true,
+      "unresolved_regions": 0,
+      "executor_used": false,
+      "roblox_client_used": false,
+      "application_executed": false,
+      "network_required": true
+    },
+    "sample4": {
+      "prototypes": 3,
+      "constants": 49,
+      "packets": 156,
+      "all_constants": true,
+      "all_packet_records": true,
+      "unresolved_regions": 0,
+      "executor_used": false,
+      "roblox_client_used": false,
+      "application_executed": false,
+      "network_required": true,
+      "clean_behavior_fixtures_passed": 5
+    }
+  }
+}

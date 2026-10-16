@@ -1,0 +1,73 @@
+{
+  "id": "sample3",
+  "build": "33308a56-0fcb-4618-9ac7-ea30a8b5af46",
+  "input_sha256": "53505ed6868e1501ba1f38d29e2dca5733e0b2e673575368bbb18856b98e9c1d",
+  "validation": "Application round-trip checked: full printed trace, two return values and checksum 139587 match the original deterministic fixture.",
+  "operand_name": "a",
+  "constant_fn": "S",
+  "child_fn": "c",
+  "register_cache": "d",
+  "constant_tags": [
+    14,
+    31,
+    33,
+    26,
+    114,
+    62
+  ],
+  "main_name": "k",
+  "running_name": "running",
+  "pack_name": "Z",
+  "unpack_name": "f",
+  "setenv_name": "m",
+  "env_name": "d",
+  "proto_fields": {
+    "Q": "Y",
+    "K": "q",
+    "w": "m",
+    "X": "s",
+    "a": "U",
+    "u": "t"
+  },
+  "aliases": "local builtins,trackedSetMetatable,setEnvironment,getEnvironment,setMeta,getConstant,makeClosure,beginIteration,nextIteration,pack,unpack,bxor,mix,stopExecution=t,Q,m,d,w,S,l,L,O,Z,f,U,u,e\nlocal running=true",
+  "banks": [
+    "y",
+    "w",
+    "v",
+    "D",
+    "O",
+    "C"
+  ],
+  "rename": {
+    "W": "registers",
+    "r": "upvalues",
+    "p": "environment",
+    "R": "nextPc",
+    "P": "prototype",
+    "y": "accessState",
+    "h": "varargs",
+    "t": "builtins",
+    "Q": "trackedSetMetatable",
+    "m": "setEnvironment",
+    "d": "getEnvironment",
+    "w": "setMeta",
+    "S": "getConstant",
+    "l": "makeClosure",
+    "L": "beginIteration",
+    "O": "nextIteration",
+    "Z": "pack",
+    "f": "unpack",
+    "U": "bxor",
+    "u": "mix",
+    "K": "running",
+    "e": "stopExecution"
+  },
+  "decoder_calls": {
+    "C": "m,V,I,c,D,decode,lanes,error,z,F,t",
+    "v": "V,D,t,error,c,decode,z,m,F,I,lanes",
+    "D": "m,c,V,D,error,decode,z,I,F,t,lanes",
+    "y": "F,error,t,D,c,V,m,decode,z,I,lanes",
+    "O": "lanes,c,D,decode,z,m,t,F,V,I,error",
+    "w": "I,m,V,F,decode,t,error,D,c,lanes,z"
+  }
+}

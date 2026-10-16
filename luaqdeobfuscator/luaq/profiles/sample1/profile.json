@@ -1,0 +1,61 @@
+{
+  "operand_name": "Y",
+  "constant_fn": "c",
+  "register_cache": "o",
+  "constant_tags": [
+    99,
+    104,
+    41,
+    89,
+    98,
+    33
+  ],
+  "main_name": "eN",
+  "running_name": "E",
+  "pack_name": "d",
+  "unpack_name": "s",
+  "setenv_name": "M",
+  "env_name": "V",
+  "proto_fields": {
+    "Q": "Q",
+    "K": "K",
+    "w": "w",
+    "X": "X",
+    "a": "a",
+    "u": "u"
+  },
+  "aliases": "local builtins,trackedSetMetatable,setEnvironment,getEnvironment,setMeta,getConstant,makeClosure,beginIteration,nextIteration,pack,unpack,bxor,mix=F,I,M,V,z,c,b,k,y,d,s,u,m",
+  "id": "sample1",
+  "build": "bac1f4e0-cb24-4dfb-ad25-a2a5bc3500d2",
+  "input_sha256": "fa7f6dcbaf61eef8fece8dfc9356bc88a2e4770a38c23c95af9aa2856f875c46",
+  "banks": [
+    "s",
+    "X",
+    "M",
+    "v",
+    "J",
+    "D"
+  ],
+  "rename": {
+    "e": "registers",
+    "w": "upvalues",
+    "A": "environment",
+    "N": "nextPc",
+    "K": "prototype",
+    "B": "accessState",
+    "G": "varargs",
+    "F": "builtins",
+    "I": "trackedSetMetatable",
+    "M": "setEnvironment",
+    "V": "getEnvironment",
+    "z": "setMeta",
+    "c": "getConstant",
+    "b": "makeClosure",
+    "k": "beginIteration",
+    "y": "nextIteration",
+    "d": "pack",
+    "s": "unpack",
+    "u": "bxor",
+    "m": "mix"
+  }
+}
