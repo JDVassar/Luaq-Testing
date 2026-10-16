@@ -1,0 +1,1 @@
+Runtime and instrumentation source excerpt from the Luaq research tool. This excerpt is for reading; use the complete luaq-deobfuscator package to run the CLI. Lune compatibility satisfies the tested bootstrap probes; this is not a universal anti-tamper bypass. Normal loader service access is still required. Tested on three builds. Clean-source reconstruction remains manual.
